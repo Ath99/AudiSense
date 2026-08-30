@@ -9,6 +9,18 @@ AudiSense is a multimodal late-fusion framework for detecting suicidal ideation 
 - `split_train.csv`: training split (95 videos)
 - `split_val.csv`: validation split (20 videos)  
 - `split_test.csv`: test split (21 videos)
+
+## Dataset
+| Attribute | Value |
+|-----------|-------|
+| Total videos | 136 |
+| Total comment rows | 1,339 |
+| Suicidal (Class 1) | 42 (30.9%) |
+| Non-suicidal (Class 0) | 94 (69.1%) |
+| Inter-rater agreement | κ = 0.76 |
+| Train / Val / Test | 95 / 20 / 21 videos |
+| Transcription | OpenAI Whisper large-v2 |
+
 ## Results
 
 | System | AUPRC | ROC-AUC | F1 |
