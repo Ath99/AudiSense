@@ -1,7 +1,7 @@
 # AudiSense
 Code and dataset for the paper: "AudiSense: Dynamic Fusion of Behavioral and Textual Signals  for Suicidal Ideation Detection on TikTok"
 ## Abstract
-AudiSense is a multimodal late-fusion framework for detecting suicidal ideation on TikTok. It fuses XLM-RoBERTa text encoding with XGBoost behavioral engagement classification through a Dynamic Gating Network (DGN) that learns per-video modality weights. The system addresses the algospeak problem — where creators replace sensitive words with coded expressions to evade moderation — by leveraging engagement signals that are harder to manipulate than text.
+AudiSense is a multimodal late-fusion framework for detecting suicidal ideation on TikTok. It fuses XLM-RoBERTa text encoding with XGBoost behavioral engagement classification through a Dynamic Gating Network (DGN) that learns per-video modality weights. The system addresses the algospeak problem, where creators replace sensitive words with coded expressions to evade moderation, by leveraging engagement signals that are harder to manipulate than text.
 ## Files
 - `AudiSense1.ipynb`: full experiment code
 - `DataCollection1.ipynb`: data collection and Whisper transcription
